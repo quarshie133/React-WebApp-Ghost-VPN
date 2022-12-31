@@ -1,16 +1,18 @@
-import React from 'react';
-import "../styles/Onboarding.css";
+import React from "react";
+import "../styles/Styles.css";
+import RocketImage from "../assets/Rectangle.svg";
 
- function Onboarding() {
+function Onboarding() {
   return (
-    <div>
-      <div className='onboard'>
-        
+    <div className="first-layer">
+      <div className="second-layer">
+        <img src={RocketImage} alt="rocketImage" className="rocket" />
 
+        <button className="btn-1">Sign In</button>
+        <button className="btn-2">Sign Up</button>
       </div>
     </div>
-  )
+  );
 }
 
-
-export default Onboarding
+export default Onboarding;
