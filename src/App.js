@@ -6,7 +6,10 @@ function App() {
   return (
     <div>
       <Onboarding />
-      <Disconnected />
+      <Disconnected 
+      title="00:00:00"
+      subtitle="Disconnected"
+      />
     </div>
   );
 }
