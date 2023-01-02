@@ -182,7 +182,8 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 24px;
-  margin-right: 30%;
+  margin-right: 46%;
+  position: relative;
 }
 
 .vectorUp {
@@ -211,17 +212,22 @@ h4 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-left: 17%;
+  margin-left: 230px;
   top: 0;
-  margin-top: 18.5%;
+  margin-top: 248px;
 }
 
 .vectorDown {
   background: var(--green-color);
   position: absolute;
-  margin-right: 66px;
+  margin-right: 73px;
 }
 
 .ellipse-green {
   background-color: var(--dark-bg-color);
+}
+
+.round-circle {
+  background: var(--dark-bg-color);
+  margin-top: 23.29px;
 }

@@ -7,6 +7,7 @@ import EllipseYellow from "../assets/Ellipse3.svg";
 import VectorUp from "../assets/VectorUp.svg";
 import VectorDown from "../assets/VectorDown.svg";
 import EllipseGreen from "../assets/Ellipse 3.svg";
+import Circle from "../assets/Group22.svg";
 
 function Disconnected({ title, subtitle, kilpersec, megpersec }) {
   return (
@@ -38,6 +39,8 @@ function Disconnected({ title, subtitle, kilpersec, megpersec }) {
           <img src={EllipseGreen} alt="ellipse" className="ellipse-green" />
           <h4>{megpersec}</h4>
         </div>
+
+        <img src={Circle} alt="circle" className="round-circle"/>
       </div>
     </div>
   );
