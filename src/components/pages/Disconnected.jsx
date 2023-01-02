@@ -57,9 +57,9 @@ function Disconnected({ title, subtitle, kilpersec, megpersec }) {
             className="switch-button"
           />
         </div>
-          <img src={Trophy} alt="trophy-image" className="trophy-img" />
+        <img src={Trophy} alt="trophy-image" className="trophy-img" />
         <button className="premium-btn">
-         <h4 className="text-btn">Go Premium</h4>
+          <h4 className="text-btn">Go Premium</h4>
         </button>
       </div>
     </div>
