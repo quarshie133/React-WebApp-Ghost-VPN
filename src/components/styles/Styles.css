@@ -227,7 +227,61 @@ h4 {
   background-color: var(--dark-bg-color);
 }
 
-.round-circle {
+.circles {
+  background: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline-circle {
   background: var(--dark-bg-color);
   margin-top: 23.29px;
+}
+.outer-circle {
+  background: var(--dark-bg-color);
+  position: absolute;
+  margin: 37px;
+}
+
+.inner-circle {
+  position: absolute;
+  background: var(--green-color);
+}
+
+.switch-button {
+  position: absolute;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: var(--green-color);
+}
+
+.premium-btn {
+  width: 177px;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 48px;
+  border: none;
+  background: var(--main-bg-color);
+  color: var(--yellow-bg-color);
+  text-align: center;
+  font-family: Imported;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.trophy-img {
+  position: absolute;
+  background-color: var(--main-bg-color);
+  margin-top: 12px;
+  margin-left: 27px;
+}
+
+button,
+.text-btn {
+  margin-left: 13px;
+  background: var(--main-bg-color);
+  color: var(--yellow-bg-color);
 }

@@ -7,7 +7,11 @@ import EllipseYellow from "../assets/Ellipse3.svg";
 import VectorUp from "../assets/VectorUp.svg";
 import VectorDown from "../assets/VectorDown.svg";
 import EllipseGreen from "../assets/Ellipse 3.svg";
-import Circle from "../assets/Group22.svg";
+import OutlineCircle from "../assets/outlinecircle.svg";
+import OuterCircle from "../assets/outercircle.svg";
+import InnerCircle from "../assets/innercircle.svg";
+import SwitchButton from "../assets/material-symbols_power-rounded.svg";
+import Trophy from "../assets/trophyrectangle.svg";
 
 function Disconnected({ title, subtitle, kilpersec, megpersec }) {
   return (
@@ -39,8 +43,24 @@ function Disconnected({ title, subtitle, kilpersec, megpersec }) {
           <img src={EllipseGreen} alt="ellipse" className="ellipse-green" />
           <h4>{megpersec}</h4>
         </div>
-
-        <img src={Circle} alt="circle" className="round-circle"/>
+        <div className="circles">
+          <img
+            src={OutlineCircle}
+            alt="outline-circle"
+            className="outline-circle"
+          />
+          <img src={OuterCircle} alt="outer-circle" className="outer-circle" />
+          <img src={InnerCircle} alt="inner-circle" className="inner-circle" />
+          <img
+            src={SwitchButton}
+            alt="switch-button"
+            className="switch-button"
+          />
+        </div>
+          <img src={Trophy} alt="trophy-image" className="trophy-img" />
+        <button className="premium-btn">
+         <h4 className="text-btn">Go Premium</h4>
+        </button>
       </div>
     </div>
   );
