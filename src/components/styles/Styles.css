@@ -57,7 +57,7 @@ button.btn-1 {
 }
 button.btn-1:hover {
   background: linear-gradient(100.12deg, #80f5b2 56.34%, #7eeeb8 119.04%);
-  color: rgb(53, 52, 52);
+  color: var(--white-color);
   font-weight: bolder;
 }
 
@@ -77,7 +77,7 @@ button.btn-2 {
 
 button.btn-2:hover {
   background: linear-gradient(100.12deg, #e99e3c 56.34%, #f5c537 119.04%);
-  color: rgb(53, 52, 52);
+  color: var(--white-color);
   font-weight: bolder;
 }
 
@@ -283,5 +283,62 @@ button,
 .text-btn {
   margin-left: 13px;
   background: var(--main-bg-color);
+}
+
+.text-btn {
   color: var(--yellow-bg-color);
+}
+
+/* Ghost VPN Connecting Page  */
+
+.subtitle-connecting {
+  color: var(--yellow-bg-color);
+}
+
+/* Ghost VPN Connected Page  */
+
+.arrowUp {
+  background: var(--yellow-bg-color);
+  position: absolute;
+  margin-right: 72px;
+}
+
+.arrowDown {
+  background: var(--green-color);
+  position: absolute;
+  margin-right: 77px;
+}
+
+.subtitle-connected {
+  color: var(--green-color);
+}
+
+.circle {
+  background: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline {
+  background: var(--dark-bg-color);
+  margin-top: 23.29px;
+}
+.outer {
+  background: var(--dark-bg-color);
+  position: absolute;
+  margin: 37px;
+}
+
+.inner {
+  position: absolute;
+  background: var(--green-color);
+}
+
+.switch-button-white {
+  position: absolute;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: var(--green-color);
 }
