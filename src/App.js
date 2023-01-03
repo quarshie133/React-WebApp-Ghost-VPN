@@ -1,4 +1,5 @@
 import "./App.css";
+import AllServers from "./components/pages/AllServers";
 import Connected from "./components/pages/Connected";
 import Connecting from "./components/pages/Connecting";
 import Disconnected from "./components/pages/Disconnected";
@@ -26,6 +27,7 @@ function App() {
         kilpersec="256 kb/s"
         megpersec="192 mb/s"
       />
+      <AllServers />
     </div>
   );
 }

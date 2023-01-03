@@ -21,6 +21,7 @@
 .first-layer {
   text-align: center;
   display: flex;
+  max-height: 300vh;
 }
 .second-layer {
   margin-left: auto;
@@ -234,6 +235,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .outline-circle {
@@ -273,6 +275,9 @@ h4 {
   font-size: 17px;
   line-height: 17px;
 }
+.premium-btn:hover {
+  cursor: pointer;
+}
 
 .trophy-img {
   position: absolute;
@@ -281,10 +286,20 @@ h4 {
   margin-left: 27px;
 }
 
+.trophy-img:hover {
+  cursor: pointer;
+}
+
 button,
 .text-btn {
   margin-left: 13px;
   background: var(--main-bg-color);
+}
+
+button,
+.text-btn:hover {
+  cursor: pointer;
+  color: #f5f5f5;
 }
 
 .text-btn {
