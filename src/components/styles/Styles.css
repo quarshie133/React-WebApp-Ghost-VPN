@@ -56,6 +56,7 @@ button.btn-1 {
   line-height: 17px;
   cursor: pointer;
   margin-right: 10px;
+  color: #151515;
 }
 button.btn-1:hover {
   background: linear-gradient(100.12deg, #80f5b2 56.34%, #7eeeb8 119.04%);
@@ -75,6 +76,7 @@ button.btn-2 {
   line-height: 17px;
   margin: 24px;
   cursor: pointer;
+  color: #151515;
 }
 
 button.btn-2:hover {
