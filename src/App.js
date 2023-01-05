@@ -30,12 +30,6 @@ function App() {
         kilpersec="256 kb/s"
         megpersec="192 mb/s"
       />
-      <Connected
-        title="00:00:01"
-        subtitle="Connected"
-        kilpersec="256 kb/s"
-        megpersec="192 mb/s"
-      />
 
       <Onboarding />
 
