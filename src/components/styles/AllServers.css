@@ -341,6 +341,7 @@ input[type="text"]::placeholder {
   margin: 20px;
   margin-top: 10%;
   background: var(--main-bg-color);
+
 }
 
 .italy-icon {
@@ -353,4 +354,5 @@ input[type="text"]::placeholder {
   align-items: center;
   margin-left: 21%;
   background: var(--main-bg-color);
+   
 }
