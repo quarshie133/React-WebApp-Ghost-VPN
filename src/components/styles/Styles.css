@@ -253,6 +253,7 @@ h4 {
 .inner-circle {
   position: absolute;
   background: var(--green-color);
+  cursor: pointer;
 }
 
 .switch-button {

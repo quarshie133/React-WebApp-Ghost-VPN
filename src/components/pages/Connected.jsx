@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Styles.css";
 import Vector from "../assets/Vector.svg";
 import CanadaLogo from "../assets/canada-logo.svg";
@@ -12,10 +12,21 @@ import OuterCircle from "../assets/outercircle.svg";
 import InnerCircle from "../assets/innercircle.svg";
 import SwitchButtonWhite from "../assets/switchbutton-white.svg";
 import Trophy from "../assets/trophyrectangle.svg";
+import Disconnected from "./Disconnected";
 
 function Connected({ title, subtitle, kilpersec, megpersec }) {
+  const [showDisconnted, setShowDisconnected] = useState(false);
+
   return (
     <div className="third-layer">
+      {showDisconnted && (
+        <Disconnected
+          title="00:00:00"
+          subtitle="Disconnected"
+          kilpersec="00 kb/s"
+          megpersec="00 mb/s"
+        />
+      )}
       <div className="fourth-layer">
         <div className="wrap">
           <div className="vector-img"></div>
@@ -43,14 +54,10 @@ function Connected({ title, subtitle, kilpersec, megpersec }) {
           <img src={EllipseGreen} alt="ellipse" className="ellipse-green" />
           <h4>{megpersec}</h4>
         </div>
-        <div className="circle">
-          <img
-            src={OutlineCircle}
-            alt="outline-circle"
-            className="outline"
-          />
-          <img src={OuterCircle} alt="outer-circle" className="outer" />
-          <img src={InnerCircle} alt="inner-circle" className="inner" />
+        <div className="circle" onClick={() => setShowDisconnected(true)}>
+          <img src={OutlineCircle} alt="outline-circle" className="outline" />
+          <img src={OuterCircle} alt="outer-circle" className="outer-circle" />
+          <img src={InnerCircle} alt="inner-circle" className="inner-circle" />
           <img
             src={SwitchButtonWhite}
             alt="switch-button"
