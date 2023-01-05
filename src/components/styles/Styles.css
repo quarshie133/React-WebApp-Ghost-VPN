@@ -248,6 +248,7 @@ h4 {
   background: var(--dark-bg-color);
   position: absolute;
   margin: 37px;
+  cursor: pointer;
 }
 
 .inner-circle {
